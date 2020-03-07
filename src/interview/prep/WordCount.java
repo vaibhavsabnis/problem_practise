@@ -11,6 +11,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+/**
+ * Asked by Meenakshi (Bloomberg) on Feb 18th 2020. Round 1
+ * @author vaibhav
+ *
+ */
 public class WordCount {
 	
 	public static void main(String args[]) throws Exception{
