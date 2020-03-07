@@ -4,6 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import lombok.Data; 
 
+/**
+ * 
+ * @author vaibhav
+ *
+ */
 @Data
 class MyIntegerStack {
 	private List<Integer> myList;
