@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.prep.walmartlabs;
 
 import java.util.ArrayList;
 import java.util.List;

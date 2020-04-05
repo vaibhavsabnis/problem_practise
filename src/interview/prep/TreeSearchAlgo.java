@@ -2,8 +2,8 @@ package interview.prep;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.LinkedList;
 import java.util.List;
+import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Set;
 import java.util.Stack;
@@ -31,8 +31,7 @@ class Node{
 	}
 }
 
-public class TreeSearchAlgo {
-	
+public class TreeSearchAlgo {	
 	
 	/*
 	 * Using Stack - Iteration
@@ -66,7 +65,7 @@ public class TreeSearchAlgo {
 	 */
 	static void performBFSUsingIteration(Node root) {
 		
-		Queue<Node> queue = new LinkedList<>();
+		Queue<Node> queue = new PriorityQueue<>();
 		Set<Node> visited = new HashSet<>();
 		queue.add(root);
 		while(!queue.isEmpty()) {
@@ -108,6 +107,9 @@ public class TreeSearchAlgo {
 	}
 
 
+	/*
+	 * Worker function - currently only prints the node
+	 */
 	public static void doWorkonNode(Node node) {
 		System.out.println(node);
 	}

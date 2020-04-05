@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.prep.bloomberg;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;

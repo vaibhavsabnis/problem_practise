@@ -1,4 +1,4 @@
-package interview.prep;
+package interview.prep.leetcode;
 
 import java.util.Arrays;
 import java.util.HashMap;
