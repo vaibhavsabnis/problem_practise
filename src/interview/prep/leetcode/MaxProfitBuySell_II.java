@@ -1,6 +1,8 @@
 package interview.prep.leetcode;
 
 /*
+ * Q 122
+ * 
  * Say you have an array for which the ith element is the price of a given stock on day i.
 
 Design an algorithm to find the maximum profit. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times).
@@ -27,7 +29,7 @@ Output: 0
 Explanation: In this case, no transaction is done, i.e. max profit = 0.
 
  */
-public class MaxProfitBuySell {
+public class MaxProfitBuySell_II {
 	
 	public static int _maxProfit(int[] prices) {
 		//System.out.println("Incoming prices stream:" +Arrays.toString(prices));
