@@ -41,20 +41,20 @@ public class TreeSearchAlgo {
 		Stack<Node> stack = new Stack<>(); //DataStructure enforces LIFO (and hence DFS) 
 		Set<Node> visited = new HashSet<>();
 		
-		stack.push(root);
+		stack.push(root);//Kickstart the process
 		
 		while(!stack.isEmpty()) {
 			
 			Node curr = stack.pop();
 			
-			if(!visited.contains(curr)) {
+			if(!visited.contains(curr)) { //Do actual work
 				visited.add(curr);
 				doWorkonNode(curr); //>>> Actual work
 			}
 			
-			for(Node child:curr.getChildNodes()) {				
+			for(Node child:curr.getChildNodes()) {	//The traversal 	
 				if(child!=null && !visited.contains(child)) {					
-					stack.push(child);
+					stack.push(child); //This process of inserting in datastructure ensures depth first traversal 
 				}
 			}
 		}
@@ -67,6 +67,7 @@ public class TreeSearchAlgo {
 		
 		Queue<Node> queue = new PriorityQueue<>();
 		Set<Node> visited = new HashSet<>();
+		
 		queue.add(root);
 		while(!queue.isEmpty()) {
 			Node curr = queue.poll(); //Get the item
