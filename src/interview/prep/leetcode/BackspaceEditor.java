@@ -38,7 +38,7 @@ public class BackspaceEditor {
     	
         return fetchBackspaceString(S).equals(fetchBackspaceString(T));
     }
-    private String fetchBackspaceString(String str) {
+    private String fetchBackspaceString1(String str) { //Has a bug - wont go multiple backspaces. Refer to the other private method for correct solution. 
     	
     	char[] c = str.toCharArray();
     	int j=-1;//last non-# char 
@@ -62,7 +62,33 @@ public class BackspaceEditor {
     	return sb.toString();
     }
     
+    private String fetchBackspaceString(String str) {
+    	char[]c = str.toCharArray();
+    	for(int i=0; i<c.length;i++) {
+    		if(c[i] == '#') {
+    			int x=i-1;
+    			while (x>0 && (c[x] == Character.MIN_VALUE)) {
+    				x--;
+    			}
+    			if(x>=0) {
+    				c[i] = c[x] = Character.MIN_VALUE;
+    				
+    			}
+    		}
+    	}
+    	StringBuilder sb = new StringBuilder();
+    	for(char x:c) {
+    		if (x !=Character.MIN_VALUE && x!='#') {
+    			sb.append(x);
+    		}
+    	}
+    	//System.out.println(sb.toString());
+    	return sb.toString();
+    }
+    
     public static void main(String a[]) {
+    	new BackspaceEditor().fetchBackspaceString("bxo#j##tw");
+    	
     	new BackspaceEditor().backspaceCompare("bxj##tw","bxo#j##tw" );
     	new BackspaceEditor().backspaceCompare("ab#c","ad#c" );
     	new BackspaceEditor().backspaceCompare("ab##","c#d#" );
