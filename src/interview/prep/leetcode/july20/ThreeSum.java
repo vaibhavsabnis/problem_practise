@@ -91,22 +91,6 @@ public class ThreeSum {
 					Triplet tup = new Triplet(x, y, rem);
 					triplets.add(tup);				
 				}
-					
-					/*
-				for (int k = 0; k < nums.length; k++) {
-					if (k == i || k == j)
-						continue;
-
-					z = nums[k];
-					if (x+y+z==0) {
-						Triplet tup = new Triplet(x, y, z);
-						triplets.add(tup);
-					}
-				}
-				*/
-				
-				
-				
 			}
 		}
 
