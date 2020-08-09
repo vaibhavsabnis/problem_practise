@@ -53,7 +53,7 @@ public class RottenOranges {
 					rotten.add(""+i+j);
 			}
 		}
-		
+		//performing BFS
 		int min = 0;
 		int[][] directions = {{1,0},{-1,0},{0,1},{0,-1}};
 		while(fresh.size()>0) {
