@@ -2,6 +2,7 @@ package interview.prep.leetcode.sep20;
 
 import java.util.Arrays;
 import java.util.StringTokenizer;
+import java.util.regex.Pattern;
 
 /*
  * Compare Version Numbers
@@ -52,8 +53,8 @@ Version strings do not start or end with dots, and they will not be two consecut
 public class VersionCompare {
 
 	public int compareVersion(String version1, String version2) {
-        int[] arr1 = getArrRep(version1); 
-        int[] arr2 = getArrRep(version2); 
+        int[] arr1 = getArrRepUsingSplit(version1); 
+        int[] arr2 = getArrRepUsingSplit(version2); 
         int ans = 0; 
         int len = arr1.length < arr2.length ?arr2.length: arr1.length; 
         if(arr1.length !=len)
@@ -74,7 +75,7 @@ public class VersionCompare {
         return ans;
     }
     
-    private int[] getArrRep(String version){
+    private int[] getArrRepUsingTokens(String version){
         if(version ==null) return new int[]{}; 
         StringTokenizer st = new StringTokenizer(version,"."); 
         
@@ -86,6 +87,15 @@ public class VersionCompare {
         return res; 
     }
     
+    private int[] getArrRepUsingSplit(String version){
+        if(version ==null) return new int[]{}; 
+        return Arrays.stream(version.split(Pattern.quote("."))).mapToInt(Integer::parseInt).toArray();         
+    }
+    
+    public static void main(String ar[]) {
+    	VersionCompare vc = new VersionCompare(); 
+    	vc.compareVersion("1.0", "1.0.1");
+    }
 }
 /*
 "0.1"
