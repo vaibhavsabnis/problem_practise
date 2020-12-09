@@ -34,7 +34,7 @@ Output: 6
 public class CountTreeNodes {
 	
 	public class TreeNode {
-		int val;
+		public int val;
 		public TreeNode left;
 		public TreeNode right;
 
