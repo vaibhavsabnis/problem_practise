@@ -1,4 +1,4 @@
-package interview.prep.leetcode.easy;
+package interview.prep.leetcode.easy.mustdo;
 
 import java.util.*;
 
