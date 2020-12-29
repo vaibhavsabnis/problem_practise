@@ -48,7 +48,7 @@ pos is -1 or a valid index in the linked-list.
 Follow up: Can you solve it using O(1) (i.e. constant) memory?
  */
 public class LinkedListCycle {
-    class ListNode {
+    static class ListNode {
         int val;
         ListNode next;
         ListNode(int x) {
@@ -70,5 +70,11 @@ public class LinkedListCycle {
                 return true;
         }
         return false;
+    }
+
+    public static void main(String[] args) {
+        LinkedListCycle llc = new LinkedListCycle();
+        ListNode node = new ListNode(20);
+        System.out.println(llc.hasCycle(node));
     }
 }
