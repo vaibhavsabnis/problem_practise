@@ -1,4 +1,4 @@
-package interview.prep.dec20;
+package interview.prep.leetcode.dec20;
 
 import java.util.ArrayList;
 import java.util.List;
