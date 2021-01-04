@@ -30,7 +30,7 @@ public class ConcatenationArray {
 
     public static void main(String[] args) {
         ConcatenationArray ca = new ConcatenationArray();
-        var b = ca.canFormArray(
+        boolean b = ca.canFormArray(
                 new int[]{15,88}, new int[][]{{88},{15}}
         );
         System.out.println("canFormArray = " + b);
