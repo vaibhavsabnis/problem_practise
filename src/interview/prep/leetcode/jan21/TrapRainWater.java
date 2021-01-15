@@ -1,4 +1,7 @@
 package interview.prep.leetcode.jan21;
+
+import java.util.Arrays;
+
 /*
 42. Trapping Rain Water
 Hard
@@ -51,8 +54,46 @@ public class TrapRainWater {
 
         return res;
     }
-    //TC - O(N^2), SC - O(1)
+    //TC- O(n), SC - O(n)
     public int trap(int[] height){
+        //minimum of local maxima
+        if(height == null || height.length==0)
+            return 0;
+
+        int res =0, leftMax =0, rightMax = 0;
+
+        int[] lMax = new int[height.length];
+        lMax[0] = height[0];
+        int[] rMax = new int[height.length];
+        rMax[height.length-1] = height[height.length-1];
+//        System.out.println("Incoming Array: "+ Arrays.toString(height));
+
+        for (int i = 1; i < height.length; i++) {
+            lMax[i] = Math.max(lMax[i-1],height[i]);
+        }
+//        System.out.println("Left Max Array: "+ Arrays.toString(lMax));
+
+        for (int i = height.length-2; i >= 0; i--) {
+            rMax[i] = Math.max(rMax[i+1],height[i]);
+        }
+//        System.out.println("Right Max Array: "+ Arrays.toString(rMax));
+
+        for(int i=0; i<height.length; i++){
+            leftMax = lMax[i];//leftMax(height, i);
+            rightMax = rMax[i];//rightMax(height,i);
+
+            res += Math.min(rightMax,leftMax) - height[i];
+        }
+
+        return res;
+
+    }
+
+
+
+
+    //TC - O(N^2), SC - O(1)
+    public int __trap(int[] height){
         //minimum of local maxima
         if(height == null || height.length==0)
             return 0;

@@ -91,6 +91,7 @@ public class StringArrayEquivalent {
             i++; j++;
             if (i == word1[w1].length()) {
                 i=0; w1++;
+
             }
             if (j == word2[w2].length()) {
                 j=0; w2++;
