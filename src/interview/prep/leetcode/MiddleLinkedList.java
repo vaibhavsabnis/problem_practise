@@ -1,10 +1,6 @@
 package interview.prep.leetcode;
 
-import java.util.LinkedList;
-import java.util.List;
-
 import lombok.Data;
-import lombok.Getter;
 
 /*
  * Given a non-empty, singly linked list with head node head, return a middle node of linked list.
@@ -36,7 +32,6 @@ The number of nodes in the given list will be between 1 and 100.
  * Definition for singly-linked list.
  */
 @Data
-@Getter
 class ListNode {
 	int val;
 	ListNode next;
@@ -97,8 +92,8 @@ public class MiddleLinkedList {
 		
 		
 		
-		System.out.println(new MiddleLinkedList().middleNode(one).val);
+		System.out.println(new MiddleLinkedList().middleNode(one).getVal());
 		
-		System.out.println(new MiddleLinkedList().middleNode(two).val);
+		System.out.println(new MiddleLinkedList().middleNode(two).getVal());
 	}
 }
