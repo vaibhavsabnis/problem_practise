@@ -5,42 +5,13 @@ import interview.prep.leetcode.TreeNode;
 
 public class TrimBST {
     public TreeNode trimBST(TreeNode root, int low, int high) {
-        if(root ==null)
-            return root;
+        if (root == null) return root;
+        if (root.val > high) return trimBST(root.left, low, high);
+        if (root.val < low) return trimBST(root.right, low, high);
 
-        dfsHelper(root, low, high);
-        if(root.val < low || root.val > high){
-            root = (root.left ==null) ? root.right: root.left;
-        }
-
+        root.left = trimBST(root.left, low, high);
+        root.right = trimBST(root.right, low, high);
         return root;
-    }
-
-    private void dfsHelper(TreeNode node, int low, int high) {
-        if(node == null)
-            return;
-
-        TreeNode left = node.left;
-        System.out.println("Left: "+ left);
-        while(left !=null && (left.val <low || left.val > high )) {
-            System.out.println("Left value: " + left.val);
-            node.left = (left.left ==null) ?left.right:left.left;
-            left = node.left;
-        }
-        node.left = left;
-
-        TreeNode right = node.right;
-        System.out.println("Right: "+ right);
-
-        while(right !=null && (right.val <low || right.val > high )) {
-            System.out.println("Right value: " + right.val);
-            node.right = (right.right ==null) ?right.left:right.right;
-            right =node.right;
-        }
-        node.right = right;
-
-        dfsHelper(node.left, low, high);
-        dfsHelper(node.right, low, high);
     }
 
     public static void main(String[] args) {
