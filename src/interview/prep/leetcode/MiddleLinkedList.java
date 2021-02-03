@@ -92,8 +92,8 @@ public class MiddleLinkedList {
 		
 		
 		
-		System.out.println(new MiddleLinkedList().middleNode(one).getVal());
+//		System.out.println(new MiddleLinkedList().middleNode(one).getVal());
 		
-		System.out.println(new MiddleLinkedList().middleNode(two).getVal());
+//		System.out.println(new MiddleLinkedList().middleNode(two).getVal());
 	}
 }
