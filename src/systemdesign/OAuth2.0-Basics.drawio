@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T16:16:42.310Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iKbJhHcvZ9smgJOsX0kz" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-12T23:08:04.747Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="IUQfcNW89UwvoD0qouII" version="14.2.9" type="github">
   <diagram id="3mn2--Jh7JQnOu6HmNKb" name="Page-1">
     <mxGraphModel dx="1297" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="Ahv-mG9WgOXz13vFAPab-1" value="Resource Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="190" width="30" height="60" as="geometry" />
+          <mxGeometry x="180" y="350" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ahv-mG9WgOXz13vFAPab-4" value="Website 1&lt;br&gt;(say Yelp.com)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="30" y="20" width="100" height="100" as="geometry" />
@@ -40,7 +40,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Ahv-mG9WgOXz13vFAPab-8" value="1. Browse on Yelp&lt;br&gt;Send to my gmail contacts" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ahv-mG9WgOXz13vFAPab-7">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="20.97" y="-12.28" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Ahv-mG9WgOXz13vFAPab-11" value="" style="endArrow=classic;html=1;exitX=0.99;exitY=0.16;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-4" target="Ahv-mG9WgOXz13vFAPab-6">
           <mxGeometry relative="1" as="geometry">
