@@ -1,1 +1,129 @@
-<mxfile host="app.diagrams.net" modified="2021-02-12T15:59:08.798Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" version="14.2.9" etag="ui_knmVnlAeG0_HxOoB3" type="github"><diagram id="3mn2--Jh7JQnOu6HmNKb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-12T16:16:42.310Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.150 Safari/537.36" etag="iKbJhHcvZ9smgJOsX0kz" version="14.2.9" type="github">
+  <diagram id="3mn2--Jh7JQnOu6HmNKb" name="Page-1">
+    <mxGraphModel dx="1297" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-1" value="Resource Owner" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="190" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-4" value="Website 1&lt;br&gt;(say Yelp.com)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-39" value="9. Is access token valid?&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-5" target="Ahv-mG9WgOXz13vFAPab-6">
+          <mxGeometry x="-0.0435" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="240" />
+              <mxPoint x="900" y="145" />
+              <mxPoint x="950" y="145" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-40" value="10. Get the list of contacts&lt;br&gt;Access token is valid" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-5" target="Ahv-mG9WgOXz13vFAPab-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="130" as="targetPoint" />
+            <mxPoint x="970" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-5" value="Google&lt;br&gt;(Gmail Contacts)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-6" value="Google&lt;br&gt;Authorization Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="930" y="10" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-7" value="" style="endArrow=classic;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-1" target="Ahv-mG9WgOXz13vFAPab-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="145" y="410" as="sourcePoint" />
+            <mxPoint x="140" y="270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-8" value="1. Browse on Yelp&lt;br&gt;Send to my gmail contacts" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ahv-mG9WgOXz13vFAPab-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-11" value="" style="endArrow=classic;html=1;exitX=0.99;exitY=0.16;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-4" target="Ahv-mG9WgOXz13vFAPab-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="350" as="sourcePoint" />
+            <mxPoint x="240" y="390" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-12" value="2. User asked to get contacts" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="Ahv-mG9WgOXz13vFAPab-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-17" value="3. redirect to gmail login" style="endArrow=classic;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-6" target="Ahv-mG9WgOXz13vFAPab-1">
+          <mxGeometry x="-0.0206" y="1" relative="1" as="geometry">
+            <mxPoint x="480" y="340" as="sourcePoint" />
+            <mxPoint x="210" y="400" as="targetPoint" />
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-19" value="4. Login to Gmail" style="endArrow=classic;html=1;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-23" value="5. Confirmation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-21" target="Ahv-mG9WgOXz13vFAPab-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-21" value="Login to gmail" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="440" y="390" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-27" value="Not allowed&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-24" target="Ahv-mG9WgOXz13vFAPab-4">
+          <mxGeometry x="-0.3593" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-31" value="5.b. Not granted" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ahv-mG9WgOXz13vFAPab-27">
+          <mxGeometry x="0.0045" y="2" relative="1" as="geometry">
+            <mxPoint y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-29" value="6.Granted" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-24" target="Ahv-mG9WgOXz13vFAPab-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="100" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="375" />
+              <mxPoint x="840" y="330" />
+              <mxPoint x="1050" y="330" />
+              <mxPoint x="1050" y="140" />
+              <mxPoint x="970" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-30" value="Yes, Allowed" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ahv-mG9WgOXz13vFAPab-29">
+          <mxGeometry x="-0.7628" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-24" value="&lt;span&gt;Should we Grant Yelp access to your contacts?&amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;span&gt;Yes/ No&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="375" width="200" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-34" value="7. Access Token. &lt;br&gt;Go to gmail contacts with this" style="endArrow=classic;html=1;exitX=-0.025;exitY=0.638;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-6" target="Ahv-mG9WgOXz13vFAPab-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="180" as="sourcePoint" />
+            <mxPoint x="470" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="90" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-37" value="" style="endArrow=classic;html=1;exitX=1.03;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Ahv-mG9WgOXz13vFAPab-4" target="Ahv-mG9WgOXz13vFAPab-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="370" as="sourcePoint" />
+            <mxPoint x="920" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ahv-mG9WgOXz13vFAPab-38" value="8. Get Contacts&amp;nbsp;&lt;br&gt;AccessToken attached" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ahv-mG9WgOXz13vFAPab-37">
+          <mxGeometry x="0.591" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
