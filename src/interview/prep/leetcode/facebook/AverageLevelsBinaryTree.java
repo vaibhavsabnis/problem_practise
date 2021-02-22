@@ -59,3 +59,7 @@ public class AverageLevelsBinaryTree {
         return res;
     }
 }
+/*
+[3,9,20,15,7]
+[2147483647,2147483647,2147483647]
+*/
