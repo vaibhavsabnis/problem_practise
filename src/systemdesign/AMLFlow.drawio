@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T15:39:14.190Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="DjYQL0Y2RJk6tQEtPDeZ" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T15:40:17.466Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="sHgjQYJu-lMhWISWxyr0" version="14.4.3" type="github" pages="2">
   <diagram id="iRu68B-h0srwzJngsNM3" name="Page-1">
     <mxGraphModel dx="1334" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -61,10 +61,26 @@
         <mxCell id="XaX1n3q73ztGjnzwknjy-7" value="REST Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="380" y="550" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XaX1n3q73ztGjnzwknjy-8" value="Rules Manager" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-49" value="MQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-8" target="XaX1n3q73ztGjnzwknjy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XaX1n3q73ztGjnzwknjy-8" value="Risk Manager" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="540" y="150" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="XaX1n3q73ztGjnzwknjy-9" value="Rules Engine" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-9" target="XaX1n3q73ztGjnzwknjy-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="190" />
+              <mxPoint x="830" y="39" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaX1n3q73ztGjnzwknjy-48" value="batch / &lt;br&gt;http: ReST" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XaX1n3q73ztGjnzwknjy-47">
+          <mxGeometry x="-0.0812" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XaX1n3q73ztGjnzwknjy-9" value="Risk Engine" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="680" y="150" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-10" value="Document Management Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
