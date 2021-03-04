@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T15:34:01.871Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="pm2urkIiOf-NAsZg0Khv" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T15:34:25.222Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="E8xeHXJsOsjidnGIFxzB" version="14.4.3" type="github" pages="2">
   <diagram id="iRu68B-h0srwzJngsNM3" name="Page-1">
     <mxGraphModel dx="1334" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -115,6 +115,12 @@
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-28" value="Cache Manager" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="860" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XaX1n3q73ztGjnzwknjy-34" value="Risk&lt;br&gt;Manager" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="540" y="290" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XaX1n3q73ztGjnzwknjy-35" value="Risk Engines" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="680" y="290" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
