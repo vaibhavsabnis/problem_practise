@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T15:44:52.494Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="Ax71F_e8upbG8gBL8JgM" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T15:46:13.541Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="MRrbuBkUsXkLnD1XSjrH" version="14.4.3" type="github" pages="2">
   <diagram id="iRu68B-h0srwzJngsNM3" name="Page-1">
     <mxGraphModel dx="1334" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKYoiZEN1wMwFHQaa8nA-1" value="Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" parent="1" vertex="1">
+        <mxCell id="vKYoiZEN1wMwFHQaa8nA-1" value="Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="250" y="110" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.707;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vKYoiZEN1wMwFHQaa8nA-2" target="vKYoiZEN1wMwFHQaa8nA-1">
@@ -28,10 +28,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vKYoiZEN1wMwFHQaa8nA-2" value="Internal Web" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="vKYoiZEN1wMwFHQaa8nA-2" value="Angular&lt;br&gt;Internal Web" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="90" y="230" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vKYoiZEN1wMwFHQaa8nA-3" value="Thick Client" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-64" value="https/ SOAP" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.46;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vKYoiZEN1wMwFHQaa8nA-3" target="XaX1n3q73ztGjnzwknjy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vKYoiZEN1wMwFHQaa8nA-3" value="C# Thick Client" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="90" y="370" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-54" value="Http://rest" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vKYoiZEN1wMwFHQaa8nA-4" target="XaX1n3q73ztGjnzwknjy-2">
@@ -43,19 +46,19 @@
         <mxCell id="XaX1n3q73ztGjnzwknjy-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-1" target="XaX1n3q73ztGjnzwknjy-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XaX1n3q73ztGjnzwknjy-1" value="Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-1" value="Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="310" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-2" target="XaX1n3q73ztGjnzwknjy-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XaX1n3q73ztGjnzwknjy-2" value="Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;direction=south;" vertex="1" parent="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-2" value="Load Balancer" style="rounded=1;whiteSpace=wrap;html=1;direction=south;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="250" y="510" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-36" value="http/REST" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.393;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-3" target="vKYoiZEN1wMwFHQaa8nA-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XaX1n3q73ztGjnzwknjy-3" value="External Web" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-3" value="Angular&lt;br&gt;External WebPage" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="90" y="130" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-4" value="SOAP Server" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -220,6 +223,9 @@
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-46" value="Risk Calculators" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="680" y="425" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XaX1n3q73ztGjnzwknjy-65" value="MS Matrix Platform" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
