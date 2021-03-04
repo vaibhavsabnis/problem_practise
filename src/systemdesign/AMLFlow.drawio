@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-04T16:04:19.013Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="BK1gdPkws29HfrQCCQ7Y" version="14.4.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-04T16:05:44.940Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="HcZtSEwqjmsGKD85Vtsr" version="14.4.3" type="github" pages="2">
   <diagram id="iRu68B-h0srwzJngsNM3" name="Page-1">
     <mxGraphModel dx="1334" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
         <mxCell id="XaX1n3q73ztGjnzwknjy-49" value="MQ" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-8" target="XaX1n3q73ztGjnzwknjy-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XaX1n3q73ztGjnzwknjy-8" value="Risk Manager" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="XaX1n3q73ztGjnzwknjy-8" value="Risk/&lt;br&gt;Surveillance Manager" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="539" y="150" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XaX1n3q73ztGjnzwknjy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.012;entryY=0.363;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.025;exitY=0.613;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XaX1n3q73ztGjnzwknjy-35" target="XaX1n3q73ztGjnzwknjy-44">
