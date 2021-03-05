@@ -1,4 +1,4 @@
-package interview.prep.leetcode;
+package interview.prep.leetcode.myutils;
 
 public class TreeNode {
     public int val;

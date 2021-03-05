@@ -41,8 +41,9 @@ n == nums.length
 0 <= nums[i] <= n
 All the numbers of nums are unique.
  */
-public class MissingNumber {    //SC:O(N) TC: O(N)
-    public int missingNumber(int[] nums) {
+public class MissingNumber {
+    //SC:O(N) TC: O(N)
+    public int _missingNumber(int[] nums) {
         int n=nums.length;
         Set<Integer> numSet = new HashSet<>();
 
@@ -55,6 +56,23 @@ public class MissingNumber {    //SC:O(N) TC: O(N)
                 return i;
         }
         return -1;
+    }
+
+    //SC:O(1) TC: O(N)
+    public int __missingNumber(int[] nums) {
+        int missing = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            missing ^= i ^ nums[i];
+        }
+        return missing;
+    }
+
+    //SC:O(1) TC: O(N)
+    public int missingNumber(int[] nums) {
+        int expectedSum = nums.length*(nums.length + 1)/2;
+        int actualSum = 0;
+        for (int num : nums) actualSum += num;
+        return expectedSum - actualSum;
     }
 }
 /*

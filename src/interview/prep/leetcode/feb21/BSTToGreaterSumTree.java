@@ -1,6 +1,6 @@
 package interview.prep.leetcode.feb21;
 
-import interview.prep.leetcode.TreeNode;
+import interview.prep.leetcode.myutils.TreeNode;
 
 import java.util.ArrayList;
 import java.util.HashMap;

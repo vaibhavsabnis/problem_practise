@@ -1,5 +1,7 @@
 package interview.prep.leetcode;
 
+import interview.prep.leetcode.myutils.TreeNode;
+
 public class ArrayToTreeMaker {
     public static TreeNode makeTree(int[] arr){
         if(arr ==null || arr.length == 0)

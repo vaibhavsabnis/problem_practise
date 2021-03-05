@@ -25,6 +25,8 @@ Note:
 Bonus points if you could solve it both recursively and iteratively.
 */
 
+import interview.prep.leetcode.myutils.TreeNode;
+
 /**
  * Definition for a binary tree node.
 */

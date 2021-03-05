@@ -1,7 +1,7 @@
 package interview.prep.leetcode.feb21;
 
 import interview.prep.leetcode.ArrayToTreeMaker;
-import interview.prep.leetcode.TreeNode;
+import interview.prep.leetcode.myutils.TreeNode;
 
 public class TrimBST {
     public TreeNode trimBST(TreeNode root, int low, int high) {
