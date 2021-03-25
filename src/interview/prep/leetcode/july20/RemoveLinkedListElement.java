@@ -1,35 +1,54 @@
 package interview.prep.leetcode.july20;
 
 /*
- * Remove Linked List Elements
+ This question is asked by Google. Given a linked list and a value, remove all nodes containing the provided value, and return the resulting list.
 
-Solution
-Remove all elements from a linked list of integers that have value val.
+Ex: Given the following linked lists and values...
 
-Example:
+1->2->3->null, value = 3, return 1->2->null
+8->1->1->4->12->null, value = 1, return 8->4->12->null
+7->12->2->9->null, value = 7, return 12->2->9->null
 
-Input:  1->2->6->3->4->5->6, val = 6
-Output: 1->2->3->4->5
+===
+* 203. Remove Linked List Elements
+Easy
 
+2535
+
+123
+
+Add to List
+
+Share
+Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.
+
+
+
+Example 1:
+
+
+Input: head = [1,2,6,3,4,5,6], val = 6
+Output: [1,2,3,4,5]
+Example 2:
+
+Input: head = [], val = 1
+Output: []
+Example 3:
+
+Input: head = [7,7,7,7], val = 7
+Output: []
+
+
+Constraints:
+
+The number of nodes in the list is in the range [0, 104].
+1 <= Node.val <= 50
+0 <= k <= 50
  */
 
+import interview.prep.leetcode.myutils.ListNode;
+
 public class RemoveLinkedListElement {
-	public class ListNode {
-		int val;
-		ListNode next;
-
-		ListNode() {
-		}
-
-		ListNode(int val) {
-			this.val = val;
-		}
-
-		ListNode(int val, ListNode next) {
-			this.val = val;
-			this.next = next;
-		}
-	}
 	public ListNode removeElements(ListNode head, int val) {
 		if (head == null)
 			return null;
