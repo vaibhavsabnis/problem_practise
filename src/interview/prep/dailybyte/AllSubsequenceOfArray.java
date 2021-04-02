@@ -3,7 +3,8 @@ package interview.prep.dailybyte;
 import java.util.Arrays;
 
 /*
-Print all subsequences of a given array
+Print all subsequences of a given array.
+SubSequence is same as subset
  */
 public class AllSubsequenceOfArray {
     public static void main(String[] arg){
