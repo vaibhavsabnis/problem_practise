@@ -1,5 +1,7 @@
 package interview.prep.dailybyte;
 
+import interview.prep.leetcode.myutils.TreeNode;
+
 /**
  * 108. Convert Sorted Array to Binary Search Tree
  * Easy
